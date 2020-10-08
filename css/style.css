@@ -94,7 +94,8 @@ header{
 
   /*Your Code Here*/
   /*Set background-image to header.jpg */
-
+  background-image: url("images/header.jpg");
+  background-repeat: no-repeat;
 
   grid-column: 1 / -1;  /*Can you explain what this does?*/
   grid-row: 1 / auto;   /*Can you rewrite it?*/
@@ -170,10 +171,12 @@ background-color: rgba(255, 255, 255, .8);
 
   .about, .clients, .method-image, .contact-image{
     /*Your code here:*/
+    grid-column: 3 / span 2;
   }
 
   .about-image, .clients-image, .method, .contact{
     /*Your code here:*/
+    grid-column: 2 / span 2;
   }
 }
 
