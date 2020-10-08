@@ -154,7 +154,7 @@ header p{
   padding: 30px;
   /*Your code here:*/
   text-align: left;
-  margin: auto;
+  align-self: center
 
 }
 
